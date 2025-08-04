@@ -23,7 +23,7 @@ def web_app_portfolio():
         """, unsafe_allow_html= True)
     
     st.write(f"""
-        <div class= "subtitle" style= "text-align: center;"> Data Science and AI Professional</div>""", unsafe_allow_html= True)
+        <div class= "subtitle" style= "text-align: center;"> Data Science and Irrigation/Water Engineer</div>""", unsafe_allow_html= True)
              
     # st.write(f"""
     # <div class= "title" style= "text-align: center;">
@@ -64,12 +64,14 @@ def web_app_portfolio():
     st.subheader("About Me")
 
     st.markdown("""
-    - I am a **Data Science and AI Professional** with a solid foundation in *statistical analysis, machine 
-      learning, and deep learning*. 
-    - Adept at developing, fine-tuning, and deploying models using Python, SQL, and industry
-      standard AI frameworks such as Hugging Face Transformers and PyTorch. 
+    - I am a Master of Science degree holder in **Irrigation Engineering** with a solid foundation in designing canals, canal structures, and Dams. 
+    - Adept at evaluating and supervising construction of irrigation projects and designing surface and pressurized irrigation systems.
+    - Strong abilty in Water engineering softwares like AutoCAD, ArcGIS and WaterCAD. 
+    - I am also a certified **Data Science professional** with a strong foundation in statistical analysis and machine learning.
+    - Good at developing, fine-tuning, and deploying models using Python, and SQL.
+    - Skilfull in developing a dashboard for the decion makers and other stakeholders using Arificial Intelligence and Python.
     - Strong analytical mindset with hands-on experience in solving real-world problems through data-driven solutions. 
-    - Eager to contribute to innovative, AI-powered teams in dynamic environments.
+    - Eager to contribute to innovative, AI-powered teams in dynamic environments. 
     - You can contact me through debinathuka@gmai.com
     - Based in USA
     """)
