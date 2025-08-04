@@ -9,7 +9,7 @@ def web_app_portfolio():
     with open("asset/hailu_pic.jpg", "rb") as img_file:
          img = "data:image/jpg;base64," + base64.b64encode(img_file.read()).decode()
 
-    with open("asset/Profile.pdf", "rb") as pdf_file: 
+    with open("asset/hailuwtrdtscn.pdf", "rb") as pdf_file: 
        pdf_bytes= pdf_file.read()
           
 
@@ -76,7 +76,7 @@ def web_app_portfolio():
 
     st.write('##')
 
-    st.download_button(label="📥 Download my Resume", data= pdf_bytes, file_name= "Profile.pdf", mime= "Application/pdf",)
+    st.download_button(label="📥 Download my Resume", data= pdf_bytes, file_name= "hailuwtrdtscn.pdf", mime= "Application/pdf",)
 
 if __name__ =="__main__":
   web_app_portfolio()
